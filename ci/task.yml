@@ -1,0 +1,9 @@
+platform: linux
+
+image: docker:///golang
+
+inputs:
+  - name: code
+
+run:
+  path: code/ci/scripts/main_test
