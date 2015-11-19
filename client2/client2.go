@@ -1,5 +1,5 @@
 package client2
 
 func ReturnTwo() int {
-	return 1
+	return 2
 }
