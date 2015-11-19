@@ -1,4 +1,6 @@
 #!/bin/bash
 # vim: set ft=sh
 
- go test ./code/
+go get github.com/zankich/concourse-scratch/client1
+go get github.com/zankich/concourse-scratch/client2
+go test ./code/
