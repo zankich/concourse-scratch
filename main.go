@@ -1,11 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/zankich/concourse-scratch/client1"
+	"github.com/zankich/concourse-scratch/client2"
+)
 
 func main() {
-	fmt.Println(ReturnTrue())
+	fmt.Println(ReturnThree())
 }
 
-func ReturnTrue() bool {
-	return true
+func ReturnThree() int {
+	return client1.ReturnOne() + client2.ReturnTwo()
 }

@@ -1,0 +1,4 @@
+#!/bin/bash
+# vim: set ft=sh
+
+ go test ./code/client1
